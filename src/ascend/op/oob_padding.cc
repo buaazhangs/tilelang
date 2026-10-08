@@ -72,6 +72,12 @@ Optional<Layout> FindLayoutForBuffer(const LayoutMap &layout_map,
   if (layout_map.count(buffer)) {
     return layout_map[buffer];
   }
+  // Cube views can reuse a data Var with different matrix layouts. Inference
+  // must anchor each operand itself; a sibling's layout is not its layout.
+  if (IsL1Buffer(buffer) || IsL0ABuffer(buffer) || IsL0BBuffer(buffer) ||
+      IsL0CBuffer(buffer)) {
+    return std::nullopt;
+  }
   for (const auto &kv : layout_map) {
     if (kv.first->data.same_as(buffer->data)) {
       return kv.second;

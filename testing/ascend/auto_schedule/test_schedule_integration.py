@@ -4,6 +4,8 @@ Pass-local contracts are tested in the neighboring files with explicit IR.
 Only these tests deliberately exercise multiple compiler stages.
 """
 
+import math
+
 import pytest
 import tilelang
 import tilelang.testing
@@ -140,6 +142,77 @@ def test_sibling_l0_rings_survive_layout_lowering(k_tiles):
     materialized = snapshots["tl.MaterializeMultiBuffer"]
     assert int(allocated_buffer(materialized, "l0a").shape[0]) == 2
     assert artifact.kernel_source and artifact.device_mod
+
+
+def test_normalized_gemms_share_l0_slots_with_different_layouts():
+    @T.prim_func
+    def main(
+        Q: T.Tensor((2, 64, 512), "bfloat16"),
+        KV: T.Tensor((2, 128, 512), "bfloat16"),
+        P: T.Tensor((2, 64, 128), "bfloat16"),
+        S: T.Tensor((2, 64, 128), "float32"),
+        O: T.Tensor((2, 64, 512), "float32"),
+    ):
+        with T.Kernel(1):
+            q_l1 = T.alloc_l1((64, 512), "bfloat16")
+            kv_l1 = T.alloc_l1((128, 512), "bfloat16")
+            p_l1 = T.alloc_l1((64, 128), "bfloat16")
+            accum = T.alloc_l0c((64, 512), "float32")
+            for step in T.Pipelined(2, num_stages=2):
+                T.copy(Q[step, :, :], q_l1)
+                T.copy(KV[step, :, :], kv_l1)
+                T.gemm(q_l1, kv_l1, accum[:, :128], transpose_B=True, clear_accum=True)
+                T.copy(accum[:, :128], S[step, :, :])
+                T.copy(P[step, :, :], p_l1)
+                T.gemm(p_l1, kv_l1, accum, transpose_B=False, clear_accum=True)
+                T.copy(accum, O[step, :, :])
+
+    snapshots = {}
+
+    @tvm.ir.instrument.pass_instrument
+    class Capture:
+        def run_after_pass(self, mod, info):
+            if info.name in ("tl.PrepareMultiBuffer", "tl.InsertSync", "tl.MaterializeMultiBuffer", "tl.MergeUBAllocations"):
+                snapshots[info.name] = mod
+
+    with tvm.transform.PassContext(instruments=[Capture()]):
+        tilelang.lower(main, target="ascend")
+    prepared = snapshots["tl.PrepareMultiBuffer"]
+    clocks = []
+    for scope in ("shared.l0a", "shared.l0b"):
+        (ring,) = [buffer for block in nodes(prepared, tirx.SBlock) for buffer in block.alloc_buffers if buffer.scope() == scope]
+        owners = [loop for loop in nodes(prepared, tirx.For) if ring.data in loop.annotations.get("tl.multi_buffer_counter_map", {})]
+        assert len(owners) == 2
+        clocks.extend(loop.annotations["tl.multi_buffer_counter_map"][ring.data] for loop in owners)
+        assert math.prod(int(dim) for dim in ring.shape) * 2 == 32 * 1024
+    assert all(clock.same_as(clocks[0]) for clock in clocks)
+
+    # Only the shared release ring initializes/drains constant events. There
+    # must be no additional whole-GEMM M -> MTE1 exclusion event.
+    synced = snapshots["tl.InsertSync"]
+    for operation in ("set", "wait"):
+        events = [call.args[1] for call in calls(synced, "tl.ascend_" + operation + "_flag") if call.args[0].value == "M_MTE1"]
+        assert len([event for event in events if isinstance(event, tirx.IntImm)]) == 2
+        dynamic = [event for event in events if not isinstance(event, tirx.IntImm)]
+        assert len(dynamic) == 2
+        tvm.ir.assert_structural_equal(dynamic[0], dynamic[1])
+
+    materialized = snapshots["tl.MaterializeMultiBuffer"]
+    for scope in ("shared.l0a", "shared.l0b"):
+        views = {
+            tuple(int(dim) for dim in buffer.shape)
+            for block in nodes(materialized, tirx.SBlock)
+            for buffer in block.annotations.get("layout_map", {})
+            if buffer.scope() == scope and len(buffer.shape) == 3
+        }
+        assert views == {(2, 128, 128), (2, 512, 32)}
+        (merged,) = [
+            allocation.buffer
+            for func in snapshots["tl.MergeUBAllocations"].functions.values()
+            for allocation in nodes(func, tirx.AllocBuffer)
+            if allocation.buffer.scope().removesuffix(".dyn") == scope
+        ]
+        assert math.prod(int(dim) for dim in merged.shape) * tvm.DataType(merged.dtype).bits // 8 == 64 * 1024
 
 
 def test_counter_slot_is_compatible_with_l1_layout_lowering():

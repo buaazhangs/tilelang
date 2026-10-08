@@ -25,6 +25,7 @@
 
 #include "arith/ir_mutator_with_analyzer.h"
 #include "arith/ir_visitor_with_analyzer.h"
+#include "ascend/layout/ascend_layouts.h"
 #include "ascend/op/utils.h"
 #include "ascend/transform/vf_regions.h"
 #include "backend/common/target_utils.h"
@@ -333,6 +334,12 @@ public:
               }
             }
           }
+          // NormalizeGemm explicitly separates the matrix formats of its
+          // shared scratch views. Ordinary aliases retain reshape consistency.
+          if (!shapes_equal && IsAscendFractalLayout(src_layout) &&
+              independent_layout_buffers_.count(src_buffer) &&
+              independent_layout_buffers_.count(sib))
+            continue;
           Layout target_layout =
               shapes_equal
                   ? src_layout
@@ -624,43 +631,29 @@ public:
     // step 3: relax constraints to free and re-run
     InferInFreeMode(layout_map, strict_layout_map);
     // step 4: finalize alias layouts by Var
-    // For each storage var, if any buffer in the group has a layout,
-    // propagate (reshape if needed) to the rest to ensure completeness.
+    // Propagate compatible alias layouts to complete each storage group.
     for (const auto &[var, buffers] : buffer_data_to_buffers_) {
-      // Find a representative with existing layout
-      Optional<Buffer> rep;
-      Optional<Layout> rep_layout;
       for (const auto &buf : buffers) {
-        if (layout_map.count(buf)) {
-          rep = buf;
-          rep_layout = layout_map[buf];
-          break;
-        }
-      }
-      if (!rep_layout.defined())
-        continue;
-      for (const auto &buf : buffers) {
-        if (!layout_map.count(buf)) {
+        if (layout_map.count(buf))
+          continue;
+        for (const auto &rep : buffers) {
+          if (!layout_map.count(rep))
+            continue;
+          Layout rep_layout = layout_map[rep];
           bool shapes_equal =
-              rep_layout.value()->InputShape().size() == buf->shape.size();
-          if (shapes_equal) {
-            for (size_t i = 0; i < rep_layout.value()->InputShape().size();
-                 ++i) {
-              if (!analyzer_.CanProveEqual(rep_layout.value()->InputShape()[i],
-                                           buf->shape[i])) {
-                shapes_equal = false;
-                break;
-              }
-            }
-          }
+              ShapesEqual(rep_layout->InputShape(), buf->shape, &analyzer_);
+          if (!shapes_equal && IsAscendFractalLayout(rep_layout) &&
+              independent_layout_buffers_.count(rep) &&
+              independent_layout_buffers_.count(buf))
+            continue;
           Layout reshaped =
-              shapes_equal
-                  ? rep_layout.value()
-                  : rep_layout.value()->Reshape(
-                        buf->shape, &analyzer_,
-                        Integer(GetElementStorageBits(rep.value()->dtype)),
-                        Integer(GetElementStorageBits(buf->dtype)));
+              shapes_equal ? rep_layout
+                           : rep_layout->Reshape(
+                                 buf->shape, &analyzer_,
+                                 Integer(GetElementStorageBits(rep->dtype)),
+                                 Integer(GetElementStorageBits(buf->dtype)));
           layout_map.Set(buf, reshaped);
+          break;
         }
       }
     }
@@ -987,6 +980,14 @@ private:
   }
 
   void VisitStmt_(const SBlockNode *op) final {
+    if (auto annotation =
+            op->annotations.Get("tl.independent_layout_buffers")) {
+      auto buffers = annotation->as<Array<Buffer>>();
+      ICHECK(buffers.has_value())
+          << "tl.independent_layout_buffers must be an Array<Buffer>";
+      for (const Buffer &buffer : buffers.value())
+        independent_layout_buffers_.insert(buffer);
+    }
     if (IsVFRegion(op->name_hint)) {
       // A VF region is opaque to the worklist itself: visit the body first
       // (under the region's lane scope for SIMT_VF) so nested TileOps
@@ -1336,6 +1337,8 @@ private:
   }
 
   Map<Var, Array<Buffer>> buffer_data_to_buffers_;
+  std::unordered_set<Buffer, ObjectPtrHash, ObjectPtrEqual>
+      independent_layout_buffers_;
   // Map from Bind variable to its bound expression
   Map<Var, PrimExpr> bind_var_to_expr_;
   std::vector<ObjectRef> infer_list_stmt_;
@@ -1718,6 +1721,7 @@ private:
     SBlock block = Downcast<SBlock>(IRMutatorWithAnalyzer::VisitStmt_(op));
 
     auto block_ptr = block.CopyOnWrite();
+    block_ptr->annotations.erase("tl.independent_layout_buffers");
     block_ptr->annotations.Set(attr::kLayoutMap, result_.layout_map);
     return block;
   }

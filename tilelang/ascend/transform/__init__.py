@@ -6,6 +6,15 @@ from tilelang.transform import _ffi_api
 from . import z3_scheduler  # noqa: F401
 
 
+def NormalizeGemm():
+    """Expand L1-input GEMMs into L1-to-L0 copies and MADs before layout inference.
+
+    Exposes the sub-K pipeline to layout inference, dependency analysis,
+    AutoSchedule, and InsertSync as ordinary tile operations.
+    """
+    return _ffi_api.NormalizeGemm()  # type: ignore
+
+
 def InsertNd2Nz():
     """Rewrite layout-driven UB ND->UB NZ and UB->L1 ND->NZ copies."""
     return _ffi_api.InsertNd2Nz()  # type: ignore
@@ -245,6 +254,7 @@ __all__ = [
     "NormalizeBufferVersion",
     "NormalizeControlFlowForSchedule",
     "NormalizeConflictHints",
+    "NormalizeGemm",
     "PrepareMultiBuffer",
     "ResolveCore",
     "RewriteAscendBufferVersionLayout",

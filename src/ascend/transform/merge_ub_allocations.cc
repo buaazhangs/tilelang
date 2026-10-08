@@ -25,6 +25,7 @@
 #include "buffer_alias.h"
 #include "merge_ub_common.h"
 
+#include <tvm/arith/analyzer.h>
 #include <tvm/ffi/reflection/registry.h>
 #include <tvm/tirx/function.h>
 #include <tvm/tirx/stmt.h>
@@ -404,6 +405,37 @@ private:
   bool found_contract_{false};
 };
 
+class L0BAllocationVerifier : public StmtVisitor {
+public:
+  static void Verify(const Stmt &stmt) {
+    L0BAllocationVerifier verifier;
+    verifier(stmt);
+    arith::Analyzer analyzer;
+    constexpr int64_t kL0BMemoryLimit = 64 * 1024;
+    ICHECK(!analyzer.CanProve(verifier.total_bytes_ >
+                              IntImm(DataType::Int(64), kL0BMemoryLimit)))
+        << "Ascend L0B allocation requires "
+        << analyzer.Simplify(verifier.total_bytes_)
+        << " bytes after storage reuse, exceeding the " << kL0BMemoryLimit
+        << "-byte physical limit. Reduce L0B tile sizes or buffer versions, "
+           "or ensure that GEMM operand buffers can safely reuse storage.";
+  }
+
+private:
+  void VisitStmt_(const AllocBufferNode *op) final {
+    const Var &storage = op->buffer->data;
+    std::string scope = GetPtrStorageScope(storage);
+    if ((scope == "shared.l0b" || scope == "shared.l0b.dyn") &&
+        seen_.insert(storage).second) {
+      total_bytes_ = total_bytes_ + GetBufferSizeBytes(op, DataType::Int(64));
+    }
+    StmtVisitor::VisitStmt_(op);
+  }
+
+  PrimExpr total_bytes_{IntImm(DataType::Int(64), 0)};
+  std::unordered_set<Var, ObjectPtrHash, ObjectPtrEqual> seen_;
+};
+
 Stmt MergeUBAllocations(Stmt stmt, int align_bytes, bool verbose,
                         bool disable_reuse) {
   BufferAliasContractExtractor extractor;
@@ -440,6 +472,7 @@ Pass MergeUBAllocations(int align_bytes = 16, bool disable_reuse = false) {
     PrimFuncNode *writer = func.CopyOnWrite();
     writer->body = tl::MergeUBAllocations(std::move(writer->body), align_bytes,
                                           verbose, disable_reuse);
+    L0BAllocationVerifier::Verify(writer->body);
     return func;
   };
   return CreatePrimFuncPass(pass_func, 0, "tl.MergeUBAllocations", {});

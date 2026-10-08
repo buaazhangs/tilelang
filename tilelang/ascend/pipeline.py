@@ -80,6 +80,12 @@ def AscendPassPipelineBody(mod: IRModule, target: Target) -> IRModule:
     mod = ascend_transform.UnrollLoopSkipVF()(mod)
     mod = tilelang.transform.Simplify()(mod)
 
+    # Materialize every L1-input GEMM as an L1->L0A/L0B staged sub-K pipeline.
+    # The copies need layouts before scheduling and synchronization from
+    # InsertSync, so keep this before layout inference and gated on AutoSchedule.
+    if auto_schedule_enabled:
+        mod = ascend_transform.NormalizeGemm()(mod)
+
     mod = ascend_transform.AscendLayoutInference()(mod)
     mod = tilelang.transform.ReducerPlanAndMaterialize()(mod)
     LayoutVisual(mod)

@@ -61,10 +61,10 @@ private:
   }
 };
 
-// Every alias has the same padded matrix shape and canonical layout. Its old
-// reshape is absorbed into indices/regions here, not a special layout or hidden
-// pitch. Ordinary capacity accounting and version expansion therefore see the
-// complete storage through every alias. GM/UB and compact NZ are untouched.
+// Reshape aliases are coalesced with their canonical matrix view. Independently
+// inferred canonical views retain their own shapes/layouts while sharing the
+// data Var. Equal padded capacities give them a common multibuffer slot pitch.
+// GM/UB and compact NZ are untouched.
 class FractalStorageNormalizer : public arith::IRMutatorWithAnalyzer {
 public:
   static PrimFunc Rewrite(PrimFunc func) {
@@ -81,19 +81,29 @@ public:
           !collector.owners.count(buffer->data))
         continue;
       if (auto anchor = rewriter.anchors_.Get(buffer->data)) {
-        AscendFractalLayoutInfo lhs, rhs;
-        ICHECK(TryExtractAscendFractalLayout(collector.layouts[anchor.value()],
-                                             anchor.value(), &lhs));
-        ICHECK(TryExtractAscendFractalLayout(layout, buffer, &rhs));
-        ICHECK(lhs.kind == rhs.kind &&
-               collector.layouts[anchor.value()]->IsEqual(layout.get()) &&
-               anchor.value()->dtype.bits() == buffer->dtype.bits())
-            << "Conflicting canonical Cube views of " << buffer->name;
+        if (!collector.layouts[anchor.value()]->IsEqual(layout.get()))
+          rewriter.independent_storages_.insert(buffer->data);
         if (collector.used_buffers.count(buffer) &&
             !collector.used_buffers.count(anchor.value()))
           rewriter.anchors_.Set(buffer->data, buffer);
       } else {
         rewriter.anchors_.Set(buffer->data, buffer);
+      }
+      rewriter.view_anchors_.Set(buffer, buffer);
+    }
+    for (const Var &data : rewriter.independent_storages_) {
+      Buffer anchor = rewriter.anchors_[data];
+      PrimExpr capacity =
+          rewriter.PaddedCapacity_(anchor, collector.layouts[anchor]);
+      for (const auto &[buffer, layout] : collector.layouts) {
+        if (!buffer->data.same_as(data) || !IsAscendFractalLayout(layout))
+          continue;
+        ICHECK(buffer->dtype == anchor->dtype &&
+               analyzer.CanProveEqual(capacity,
+                                      rewriter.PaddedCapacity_(buffer, layout)))
+            << "Independent Cube views must have equal padded storage capacity "
+               "and dtype: "
+            << anchor->name << " and " << buffer->name;
       }
     }
     for (const Buffer &buffer : collector.buffers) {
@@ -103,9 +113,40 @@ public:
             << "Cube alias accesses must use the canonical operand dtype: "
             << buffer->name << " has " << buffer->dtype << ", expected "
             << anchor.value()->dtype;
-        rewriter.RegisterBuffer_(buffer, anchor.value(),
+        Buffer view_anchor = anchor.value();
+        if (auto own_anchor = rewriter.view_anchors_.Get(buffer)) {
+          view_anchor = own_anchor.value();
+        } else if (rewriter.independent_storages_.count(buffer->data) &&
+                   collector.layouts.count(buffer)) {
+          // A noncanonical layout is an ordinary reshape. Associate it with
+          // the canonical view whose mapping it actually preserves.
+          Optional<Buffer> matching_anchor;
+          for (const auto &[candidate, layout] : collector.layouts) {
+            if (!candidate->data.same_as(buffer->data) ||
+                !IsAscendFractalLayout(layout))
+              continue;
+            PrimExpr candidate_size = Integer(1), alias_size = Integer(1);
+            for (const PrimExpr &extent : candidate->shape)
+              candidate_size = candidate_size * extent;
+            for (const PrimExpr &extent : buffer->shape)
+              alias_size = alias_size * extent;
+            if (!analyzer.CanProveEqual(candidate_size, alias_size))
+              continue;
+            Layout reshaped = layout->Reshape(buffer->shape, &analyzer);
+            if (reshaped->IsEqual(collector.layouts[buffer].get())) {
+              matching_anchor = candidate;
+              break;
+            }
+          }
+          ICHECK(matching_anchor.defined())
+              << "Cube alias " << buffer->name
+              << " does not preserve any canonical view of its shared storage";
+          view_anchor = matching_anchor.value();
+        }
+        rewriter.view_anchors_.Set(buffer, view_anchor);
+        rewriter.RegisterBuffer_(buffer, view_anchor,
                                  collector.owners[buffer->data],
-                                 collector.layouts[anchor.value()]);
+                                 collector.layouts[view_anchor]);
       }
     }
     if (rewriter.buffers_.empty())
@@ -118,6 +159,28 @@ private:
   using Parent = arith::IRMutatorWithAnalyzer;
   explicit FractalStorageNormalizer(arith::Analyzer *analyzer)
       : Parent(analyzer) {}
+
+  Array<PrimExpr> PaddedShape_(const Buffer &buffer, const Layout &layout) {
+    AscendFractalLayoutInfo info;
+    ICHECK(TryExtractAscendFractalLayout(layout, buffer, &info));
+    Array<PrimExpr> shape = buffer->shape;
+    for (size_t axis = shape.size() - 2; axis < shape.size(); ++axis) {
+      bool is_row = axis == shape.size() - 2;
+      PrimExpr align = (is_row == (info.c0_axis == LogicalAxis::kRow))
+                           ? info.c0
+                           : info.row_frac;
+      shape.Set(axis, analyzer_->Simplify(
+                          floordiv(shape[axis] + align - 1, align) * align));
+    }
+    return shape;
+  }
+
+  PrimExpr PaddedCapacity_(const Buffer &buffer, const Layout &layout) {
+    PrimExpr capacity = Integer(1);
+    for (const PrimExpr &extent : PaddedShape_(buffer, layout))
+      capacity = capacity * extent;
+    return analyzer_->Simplify(capacity);
+  }
 
   void RegisterBuffer_(const Buffer &buffer, const Buffer &anchor,
                        const Buffer &owner, const Layout &layout) {
@@ -146,19 +209,14 @@ private:
         Layout(anchor->shape, identity)->Reshape(buffer->shape, analyzer_));
     AscendFractalLayoutInfo info;
     ICHECK(TryExtractAscendFractalLayout(layout, anchor, &info));
-    Array<PrimExpr> shape = anchor->shape;
-    for (size_t axis = shape.size() - 2; axis < shape.size(); ++axis) {
-      bool is_row = axis == shape.size() - 2;
-      PrimExpr align = (is_row == (info.c0_axis == LogicalAxis::kRow))
-                           ? info.c0
-                           : info.row_frac;
-      shape.Set(axis, analyzer_->Simplify(
-                          floordiv(shape[axis] + align - 1, align) * align));
-    }
-    // Coalesce aliases to one Buffer identity and geometry so versioning
-    // expands the allocation and every use together. An unused equal-width
-    // backing allocation may adopt the canonical operand dtype.
-    Buffer padded = canonical_buffers_.Get(buffer->data).value_or(owner);
+    Array<PrimExpr> shape = PaddedShape_(anchor, layout);
+    // Coalesce reshape aliases within each view, preserving independent
+    // canonical geometries. An unused equal-width backing allocation may
+    // adopt the canonical operand dtype.
+    bool independent = independent_storages_.count(buffer->data);
+    Buffer padded = independent
+                        ? canonical_views_.Get(anchor).value_or(anchor)
+                        : canonical_buffers_.Get(buffer->data).value_or(owner);
     if (!StructuralEqual()(padded->shape, shape) || !padded->strides.empty() ||
         padded->dtype != anchor->dtype) {
       auto *writer = padded.CopyOnWrite();
@@ -182,7 +240,9 @@ private:
       break;
     }
     buffers_.Set(buffer, padded);
-    canonical_buffers_.Set(buffer->data, padded);
+    canonical_views_.Set(anchor, padded);
+    if (!independent || buffer.same_as(owner))
+      canonical_buffers_.Set(buffer->data, padded);
     layouts_.Set(buffer, padded_layout);
   }
 
@@ -203,7 +263,7 @@ private:
     });
     if (!buffers_.count(buffer))
       return BufferRegion(buffer, ranges);
-    if (!StructuralEqual()(buffer->shape, anchors_[buffer->data]->shape)) {
+    if (!StructuralEqual()(buffer->shape, view_anchors_[buffer]->shape)) {
       // A dense reshape is injective only while trailing region extents do
       // not wrap across the original view's strides. Otherwise equal bounding
       // box volume alone can hide duplicated logical elements.
@@ -429,6 +489,9 @@ private:
     if (op->op.same_as(builtin::tvm_access_ptr())) {
       auto data = op->args[1].as<Var>();
       if (data && anchors_.count(data.value())) {
+        ICHECK(!independent_storages_.count(data.value()))
+            << "A raw Cube pointer is ambiguous across independent layouts; "
+               "take the pointer through the intended buffer view";
         Buffer anchor = anchors_[data.value()];
         ICHECK(op->args[0].dtype() == anchor->dtype)
             << "Cube raw pointer must use the canonical operand dtype "
@@ -476,6 +539,9 @@ private:
   }
   Map<Var, Buffer> anchors_;
   Map<Var, Buffer> canonical_buffers_;
+  Map<Buffer, Buffer> view_anchors_;
+  Map<Buffer, Buffer> canonical_views_;
+  std::unordered_set<Var, ObjectPtrHash, ObjectPtrEqual> independent_storages_;
   Map<Buffer, Buffer> buffers_;
   Map<Buffer, Layout> layouts_;
   Map<Buffer, Layout> logical_maps_;

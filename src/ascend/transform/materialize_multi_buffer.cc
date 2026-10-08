@@ -406,6 +406,17 @@ private:
     if (auto value = op->annotations.Get(attr::kLayoutMap)) {
       if (auto layout_map = value.value().as<Map<Buffer, Layout>>()) {
         Map<Buffer, Layout> rewritten_layouts = layout_map.value();
+        // Distinct views of shared scratch can have different matrix
+        // geometries. Expand each view's own layout before any storage-based
+        // fallback can select the allocation owner's layout for an alias.
+        for (const auto &[buffer, layout] : layout_map.value()) {
+          Buffer versioned = buffers_->Resolve(buffer);
+          if (!versioned.same_as(buffer)) {
+            rewritten_layouts.Set(
+                versioned, ExpandLayoutToBuffer(buffer, versioned, layout));
+            layout_changed = true;
+          }
+        }
         for (const Buffer &buffer : alloc_buffers)
           layout_changed |= AddLayoutForBuffer(&rewritten_layouts, buffer);
         if (layout_changed)

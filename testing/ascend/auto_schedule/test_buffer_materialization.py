@@ -3,6 +3,7 @@
 import pytest
 from tilelang import tvm
 from tilelang.ascend import transform
+from tilelang.layout import make_ascend_major_k_layout
 from tvm import tirx
 from testing.ascend._ir import allocated_buffer, calls, kernel, nodes, region, seq
 from testing.ascend.auto_schedule._scheduled_ir import copy_ring, unit
@@ -77,6 +78,37 @@ def test_aliases_use_allocation_pitch(shape, dtype, pitch):
     assert int(alias_store.buffer.strides[0]) == pitch
     assert alias_store.buffer.data.same_as(base_store.buffer.data)
     tvm.ir.assert_structural_equal(alias_store.indices[0], base_store.indices[0])
+
+
+def test_equal_size_cube_aliases_keep_their_own_versioned_layouts():
+    base = tirx.decl_buffer((128, 128), "bfloat16", name="base", scope="shared.l0b")
+    alias = tirx.decl_buffer((512, 32), "bfloat16", name="alias", data=base.data)
+    base_layout = make_ascend_major_k_layout(base)
+    alias_layout = make_ascend_major_k_layout(alias)
+    i = tirx.Var("i", "int32")
+    body = seq(
+        unit(tirx.BufferStore(base, tirx.const(1, "bfloat16"), [0, 0])),
+        unit(tirx.BufferStore(alias, tirx.const(2, "bfloat16"), [0, 0])),
+    )
+    owner = tirx.For(i, 0, 4, tirx.ForKind.SERIAL, body, annotations={"multi_buffer_eligible": [base.data]})
+    before = kernel(
+        unit(owner, core=None),
+        buffers=[base],
+        annotations={"tl.buffer_versions_map": {base.data: 2}, "layout_map": {base: base_layout, alias: alias_layout}},
+    )
+    after = transform.MaterializeMultiBuffer()(before)
+    root = next(block for block in nodes(after, tirx.SBlock) if block.name_hint == "tilelang_root")
+    layouts = root.annotations["layout_map"]
+    base_store, alias_store = nodes(after, tirx.BufferStore)
+    for store, expected_layout, shape in (
+        (base_store, base_layout, (2, 128, 128)),
+        (alias_store, alias_layout, (2, 512, 32)),
+    ):
+        assert tuple(int(dim) for dim in store.buffer.shape) == shape
+        assert int(store.buffer.strides[0]) == 16384
+        assert store.buffer in layouts
+        assert layouts[store.buffer].is_equal(expected_layout.expand([2]))
+    assert base_store.buffer.data.same_as(alias_store.buffer.data)
 
 
 @pytest.mark.parametrize("partial", [False, True], ids=["whole-tile", "partial-tile"])
