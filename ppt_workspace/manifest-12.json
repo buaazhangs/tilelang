@@ -1,0 +1,209 @@
+{
+  "slide": 12,
+  "title": "数据就绪，才能开始",
+  "clicks": 4,
+  "animations": [
+    {
+      "name": "P12_C01_010_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C01_011_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C01_012_arrow",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C01_013_arrowhead",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C01_014_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C01_016_arrow",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C01_017_arrow",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C01_018_arrow",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C01_019_arrowhead",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C01_020_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C01_021_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C02_022_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C03_023_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C03_024_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P12_C04_025_text",
+      "click": 4,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "P12_C00_001_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C00_002_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C00_003_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C00_004_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C00_005_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C00_006_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C00_007_rule",
+      "k": 0,
+      "kind": "rule"
+    },
+    {
+      "name": "P12_C00_008_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C00_009_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C01_010_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P12_C01_011_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P12_C01_012_arrow",
+      "k": 1,
+      "kind": "arrow"
+    },
+    {
+      "name": "P12_C01_013_arrowhead",
+      "k": 1,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "P12_C01_014_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C00_015_rule",
+      "k": 0,
+      "kind": "rule"
+    },
+    {
+      "name": "P12_C01_016_arrow",
+      "k": 1,
+      "kind": "arrow"
+    },
+    {
+      "name": "P12_C01_017_arrow",
+      "k": 1,
+      "kind": "arrow"
+    },
+    {
+      "name": "P12_C01_018_arrow",
+      "k": 1,
+      "kind": "arrow"
+    },
+    {
+      "name": "P12_C01_019_arrowhead",
+      "k": 1,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "P12_C01_020_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C01_021_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C02_022_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C03_023_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C03_024_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "P12_C04_025_text",
+      "k": 4,
+      "kind": "text"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "slide": 22,
+  "title": "调度结果转化为指令与多缓冲",
+  "clicks": 4,
+  "animations": [
+    {
+      "name": "R2_P22_C01_5_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C01_6_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C01_7_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C01_8_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C01_9_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C01_10_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C01_11_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C02_12_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C02_13_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C02_14_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C02_15_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C02_16_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C02_17_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C02_18_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C03_19_task",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C03_20_task",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C03_21_line",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C03_22_arrowhead",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C03_23_line",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C03_24_arrowhead",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C04_25_line",
+      "click": 4,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C04_26_arrowhead",
+      "click": 4,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P22_C04_27_text",
+      "click": 4,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "R2_P22_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P22_C00_2_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P22_C00_3_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P22_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P22_C01_5_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P22_C01_6_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C01_7_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C01_8_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C01_9_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C01_10_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C01_11_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C02_12_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P22_C02_13_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C02_14_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C02_15_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C02_16_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C02_17_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C02_18_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C03_19_task",
+      "k": 3,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C03_20_task",
+      "k": 3,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P22_C03_21_line",
+      "k": 3,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P22_C03_22_arrowhead",
+      "k": 3,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P22_C03_23_line",
+      "k": 3,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P22_C03_24_arrowhead",
+      "k": 3,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P22_C04_25_line",
+      "k": 4,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P22_C04_26_arrowhead",
+      "k": 4,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P22_C04_27_text",
+      "k": 4,
+      "kind": "text"
+    }
+  ]
+}

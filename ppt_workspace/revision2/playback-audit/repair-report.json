@@ -1,0 +1,70 @@
+{
+  "inputSha256": "b8f7040f14ab30dc0f6da289aafa6ad13c03eddd187b708a942ec512bd247685",
+  "outputSha256": "e528801dbdd4c7863a166b6920898f3a74dec9212dad0925dd8367e95330c638",
+  "changedParts": [
+    "ppt/slides/slide10.xml",
+    "ppt/notesSlides/notesSlide11.xml",
+    "ppt/notesSlides/notesSlide18.xml",
+    "ppt/slides/slide23.xml"
+  ],
+  "totalClickGroups": 66,
+  "p10ClickGroups": 4,
+  "motions": [
+    {
+      "label": "PV₀",
+      "pathPointsPx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ],
+        [
+          386,
+          80
+        ],
+        [
+          386,
+          0
+        ]
+      ],
+      "path": "M 0 0 L 0 0.1111111111 L 0.3015625 0.1111111111 L 0.3015625 0 E",
+      "durationMs": 1200
+    },
+    {
+      "label": "QK₁",
+      "pathPointsPx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -80
+        ],
+        [
+          -386,
+          -80
+        ],
+        [
+          -386,
+          0
+        ]
+      ],
+      "path": "M 0 0 L 0 -0.1111111111 L -0.3015625 -0.1111111111 L -0.3015625 0 E",
+      "durationMs": 1200
+    }
+  ],
+  "summaryDelayMs": 1200,
+  "speakerNoteReplacements": 3,
+  "singleLineLabels": [
+    "归一₀",
+    "归一₁"
+  ],
+  "nativePlaybackVerified": true,
+  "nativeApplication": "WPS Presentation 12.1.0.28043",
+  "finalPath": "D:\\Dev\\tilelang\\PPT交付\\TileLang_昇腾模调度_三章重构版.pptx",
+  "finalSha256": "e528801dbdd4c7863a166b6920898f3a74dec9212dad0925dd8367e95330c638"
+}

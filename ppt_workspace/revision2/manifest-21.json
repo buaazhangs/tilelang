@@ -1,0 +1,189 @@
+{
+  "slide": 21,
+  "title": "固定II，搜索可行的流水方案",
+  "clicks": 4,
+  "animations": [
+    {
+      "name": "R2_P21_C01_5_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C01_6_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C02_7_line",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C02_8_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C02_9_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C02_10_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C02_11_line",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C02_12_arrowhead",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C02_13_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C03_14_line",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C03_15_arrowhead",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C03_16_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C04_17_line",
+      "click": 4,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C04_18_arrowhead",
+      "click": 4,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P21_C04_19_text",
+      "click": 4,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "R2_P21_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P21_C00_2_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P21_C00_3_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P21_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P21_C01_5_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P21_C01_6_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P21_C02_7_line",
+      "k": 2,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P21_C02_8_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P21_C02_9_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P21_C02_10_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P21_C02_11_line",
+      "k": 2,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P21_C02_12_arrowhead",
+      "k": 2,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P21_C02_13_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P21_C03_14_line",
+      "k": 3,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P21_C03_15_arrowhead",
+      "k": 3,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P21_C03_16_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P21_C04_17_line",
+      "k": 4,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P21_C04_18_arrowhead",
+      "k": 4,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P21_C04_19_text",
+      "k": 4,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P21_C00_20_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P21_C00_21_text",
+      "k": 0,
+      "kind": "text"
+    }
+  ]
+}

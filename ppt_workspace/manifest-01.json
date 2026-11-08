@@ -1,0 +1,54 @@
+{
+  "slide": 1,
+  "title": "让昇腾的机器不闲着",
+  "clicks": 1,
+  "animations": [
+    {
+      "name": "P01_C01_003_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P01_C01_004_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P01_C01_005_task",
+      "click": 1,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "P01_C00_001_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P01_C00_002_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P01_C01_003_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P01_C01_004_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P01_C01_005_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P01_C00_006_text",
+      "k": 0,
+      "kind": "text"
+    }
+  ]
+}

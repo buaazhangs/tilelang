@@ -1,0 +1,7 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/gvey3l","index":20,"layout":{"id":"ly/zy5o7yhk","name":"Blank"},"backgroundColor":"rgba(246,244,239,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/apkfehkz","kind":"textbox","name":"P21_C00_001_text","position":{"left":75,"top":78,"width":1120,"height":100},"text":"谢谢，欢迎提问","style":{"fontSize":64,"typeface":"Microsoft YaHei","color":"#172A3A","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/bqtw7m1k","kind":"textbox","name":"P21_C00_002_text","position":{"left":80,"top":192,"width":1120,"height":60},"text":"算法表达清楚，让编译器安排流水","style":{"fontSize":31,"typeface":"Microsoft YaHei","color":"#7762A8","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"im/3q98bitg","kind":"image","position":{"left":75,"top":315,"width":1120,"height":330},"fit":"contain","alt":"与开场相同的三种机器工厂"},
+{"id":"sh/xsbe9wja","kind":"textbox","name":"P21_C00_003_text","position":{"left":80,"top":268,"width":1120,"height":40},"text":"硬件为什么等待      谁来安排工作      编译器怎样求解","style":{"fontSize":26,"typeface":"Microsoft YaHei","color":"#60717D","alignment":"left"},"geometry":"rect","lineWidth":0}
+]}

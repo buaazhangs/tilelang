@@ -1,0 +1,239 @@
+{
+  "slide": 7,
+  "title": "GPU的两种warp组织方式",
+  "clicks": 3,
+  "animations": [
+    {
+      "name": "R2_P07_C01_15_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C02_16_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C01_17_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C01_18_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C01_19_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C01_20_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C01_21_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C01_22_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C02_23_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C02_24_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C02_25_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C02_26_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C02_27_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C02_28_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P07_C03_29_text",
+      "click": 3,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "R2_P07_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P07_C00_2_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P07_C00_3_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P07_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P07_C00_5_task",
+      "k": 0,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P07_C00_6_task",
+      "k": 0,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P07_C00_7_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P07_C00_8_arrowhead",
+      "k": 0,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P07_C00_9_task",
+      "k": 0,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P07_C00_10_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P07_C00_11_arrowhead",
+      "k": 0,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P07_C00_12_task",
+      "k": 0,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P07_C00_13_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P07_C00_14_arrowhead",
+      "k": 0,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P07_C01_15_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P07_C02_16_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P07_C01_17_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P07_C01_18_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P07_C01_19_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P07_C01_20_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P07_C01_21_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P07_C01_22_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P07_C02_23_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P07_C02_24_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P07_C02_25_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P07_C02_26_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P07_C02_27_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P07_C02_28_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P07_C03_29_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P07_C00_30_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P07_C00_31_text",
+      "k": 0,
+      "kind": "text"
+    }
+  ]
+}

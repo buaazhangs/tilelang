@@ -1,0 +1,144 @@
+{
+  "slide": 19,
+  "title": "硬件使用约束",
+  "clicks": 3,
+  "animations": [
+    {
+      "name": "R2_P19_C01_6_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P19_C01_7_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P19_C01_8_line",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P19_C01_9_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P19_C01_10_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P19_C01_11_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P19_C02_12_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P19_C02_13_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P19_C03_14_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P19_C03_15_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P19_C03_16_text",
+      "click": 3,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "R2_P19_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P19_C00_2_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P19_C00_3_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P19_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P19_C00_5_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P19_C01_6_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P19_C01_7_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P19_C01_8_line",
+      "k": 1,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P19_C01_9_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P19_C01_10_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P19_C01_11_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P19_C02_12_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P19_C02_13_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P19_C03_14_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P19_C03_15_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P19_C03_16_text",
+      "k": 3,
+      "kind": "text"
+    }
+  ]
+}

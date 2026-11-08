@@ -1,0 +1,284 @@
+{
+  "slide": 3,
+  "title": "时间花在哪里",
+  "clicks": 3,
+  "animations": [
+    {
+      "name": "P03_C01_010_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_011_rule",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_012_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_013_rule",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_014_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_015_rule",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_016_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_017_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_018_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_019_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_020_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_021_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_022_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_023_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C02_024_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C02_025_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C03_026_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C03_027_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C03_028_box",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C03_029_box",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C03_030_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C03_031_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P03_C01_032_text",
+      "click": 1,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "P03_C00_001_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C00_002_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C00_003_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C00_004_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C00_005_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C00_006_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C00_007_rule",
+      "k": 0,
+      "kind": "rule"
+    },
+    {
+      "name": "P03_C00_008_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C00_009_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C01_010_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C01_011_rule",
+      "k": 1,
+      "kind": "rule"
+    },
+    {
+      "name": "P03_C01_012_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C01_013_rule",
+      "k": 1,
+      "kind": "rule"
+    },
+    {
+      "name": "P03_C01_014_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C01_015_rule",
+      "k": 1,
+      "kind": "rule"
+    },
+    {
+      "name": "P03_C01_016_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P03_C01_017_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P03_C01_018_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P03_C01_019_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P03_C01_020_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P03_C01_021_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P03_C01_022_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P03_C01_023_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P03_C02_024_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "P03_C02_025_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "P03_C03_026_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C03_027_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C03_028_box",
+      "k": 3,
+      "kind": "box"
+    },
+    {
+      "name": "P03_C03_029_box",
+      "k": 3,
+      "kind": "box"
+    },
+    {
+      "name": "P03_C03_030_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C03_031_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "P03_C01_032_text",
+      "k": 1,
+      "kind": "text"
+    }
+  ]
+}

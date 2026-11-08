@@ -1,0 +1,64 @@
+
+=== slide 1（P01，定稿 1 次点击）===
+  [INFO] 4 个文本框，检查通过
+
+=== slide 2（P02，定稿 4 次点击）===
+  [ERROR] 文字重叠 71%（C0/C4）：“这些机器都忙起来了吗？” × “Q 的预装与最终写出在循环外；五段宏流程不等”
+  [ERROR] 文字重叠 57%（C1/C4）：“O = softmax(QKᵀ / √d) ” × “归一化状态跨轮”
+  [WARN] 字号 20px ≈ 15.0pt < 20pt — “工序”
+  [WARN] 字号 19px ≈ 14.2pt < 20pt — “这些机器都忙起来了吗？”
+  [WARN] 字号 24px ≈ 18.0pt < 20pt — “固定 Q 块，依次处理 K / V 块”
+  [WARN] 字号 25px ≈ 18.8pt < 20pt — “算相关性
+QKᵀ”
+  [WARN] 字号 25px ≈ 18.8pt < 20pt — “更新归一化
+online softmax”
+  [WARN] 字号 25px ≈ 18.8pt < 20pt — “转交权重
+pack_p”
+  [WARN] 字号 25px ≈ 18.8pt < 20pt — “加权求和
+PV”
+  [WARN] 字号 25px ≈ 18.8pt < 20pt — “更新输出
+accumulate”
+  [WARN] 字号 26px ≈ 19.5pt < 20pt — “同一台 Cube”
+  [WARN] 字号 26px ≈ 19.5pt < 20pt — “同一类 Vector 资源”
+  [WARN] 字号 26px ≈ 19.5pt < 20pt — “搬运贯穿工序”
+  [WARN] 字号 24px ≈ 18.0pt < 20pt — “① 与 ④”
+  [WARN] 字号 24px ≈ 18.0pt < 20pt — “② 与 ⑤”
+  [WARN] 字号 21px ≈ 15.8pt < 20pt — “宏流程内还会展开搬运”
+  [WARN] 字号 19px ≈ 14.2pt < 20pt — “归一化状态跨轮”
+  [WARN] 字号 19px ≈ 14.2pt < 20pt — “输出 O 跨轮”
+  [WARN] 字号 23px ≈ 17.2pt < 20pt — “Q 的预装与最终写出在循环外；五段宏流程不等于五”
+
+=== slide 3（P03，定稿 3 次点击）===
+  [ERROR] 文字重叠 55%（C1/C2）：“PV” × “空 等”
+  [WARN] 字号 20px ≈ 15.0pt < 20pt — “产能”
+  [WARN] 字号 19px ≈ 14.2pt < 20pt — “怎样减少空等？”
+  [WARN] 字号 23px ≈ 17.2pt < 20pt — “搬运”
+  [WARN] 字号 23px ≈ 17.2pt < 20pt — “矩阵 Cube”
+  [WARN] 字号 23px ≈ 17.2pt < 20pt — “向量 Vector”
+  [WARN] 字号 22px ≈ 16.5pt < 20pt — “搬入”
+  [WARN] 字号 22px ≈ 16.5pt < 20pt — “QK”
+  [WARN] 字号 22px ≈ 16.5pt < 20pt — “softmax”
+  [WARN] 字号 22px ≈ 16.5pt < 20pt — “PV”
+  [WARN] 字号 22px ≈ 16.5pt < 20pt — “累加”
+  [WARN] 字号 25px ≈ 18.8pt < 20pt — “空 等”
+  [WARN] 字号 25px ≈ 18.8pt < 20pt — “空 等”
+  [WARN] 字号 23px ≈ 17.2pt < 20pt — “矩阵机忙碌时间占比”
+  [WARN] 字号 25px ≈ 18.8pt < 20pt — “算力达成率 = 实际算力 ÷ 同精度峰值”
+  [WARN] 字号 19px ≈ 14.2pt < 20pt — “串行模型示意；忙碌比例不等同于 MFU”
+
+=== slide 4（P04，定稿 3 次点击）===
+  [WARN] 字号 20px ≈ 15.0pt < 20pt — “重叠”
+  [WARN] 字号 19px ≈ 14.2pt < 20pt — “谁来安排这些重叠？”
+  [WARN] 字号 23px ≈ 17.2pt < 20pt — “搬入 K”
+  [WARN] 字号 23px ≈ 17.2pt < 20pt — “矩阵计算”
+  [WARN] 字号 22px ≈ 16.5pt < 20pt — “本轮 K”
+  [WARN] 字号 22px ≈ 16.5pt < 20pt — “本轮 QK”
+  [WARN] 字号 22px ≈ 16.5pt < 20pt — “下一轮 K”
+  [WARN] 字号 19px ≈ 14.2pt < 20pt — “只提前搬运，后续计算仍保留依赖”
+  [WARN] 字号 25px ≈ 18.8pt < 20pt — “货位 1
+本轮 K”
+  [WARN] 字号 25px ≈ 18.8pt < 20pt — “货位 2
+下一轮 K”
+  [WARN] 字号 26px ≈ 19.5pt < 20pt — “多缓冲：为同时在场的数据留出独立货位”
+
+合计 ERROR 3 条，WARN 43 条。P01–P21 点击总数应为 71。

@@ -1,0 +1,190 @@
+{
+  "originalUnchanged": true,
+  "originalSha256": "43b78aa61ddf016e349946b76e08f4c4c5fb1d596c684dbc0cfdbea1204b55e3",
+  "finalSha256": "e528801dbdd4c7863a166b6920898f3a74dec9212dad0925dd8367e95330c638",
+  "finalPath": "D:\\Dev\\tilelang\\PPT交付\\TileLang_昇腾模调度_三章重构版.pptx",
+  "slides": 24,
+  "clickGroups": 66,
+  "motionEffects": 9,
+  "notes": 24,
+  "allNotesMatchSpeech": true,
+  "allReferencesValid": true,
+  "nativeSlideshowVerified": true,
+  "nativeApplication": "WPS Presentation 12.1.0.28043",
+  "nativePowerPointVerified": false,
+  "timedOralRehearsalPerformed": false,
+  "replayedAfterRepair": [
+    10,
+    23
+  ],
+  "perSlide": [
+    {
+      "slide": 1,
+      "clicks": 0,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "封面正常；口播后翻页。"
+    },
+    {
+      "slide": 2,
+      "clicks": 0,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "第一章切换页正常；无额外动画点击。"
+    },
+    {
+      "slide": 3,
+      "clicks": 4,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "输入搬运、QK与搬出、softmax与回传、PV与写回，四组依次出现。"
+    },
+    {
+      "slide": 4,
+      "clicks": 3,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "串行任务、25%忙碌比例、432→108换算依次出现。"
+    },
+    {
+      "slide": 5,
+      "clicks": 3,
+      "motion": 1,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "K₁真实移动到另一批计算期间；随后出现重排与多缓冲说明。"
+    },
+    {
+      "slide": 6,
+      "clicks": 0,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "第二章切换页正常；无额外动画点击。"
+    },
+    {
+      "slide": 7,
+      "clicks": 3,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "同质warp、专职warp、指令流概念依次出现。"
+    },
+    {
+      "slide": 8,
+      "clicks": 4,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "等待、两侧就绪任务选择、总结依次出现。"
+    },
+    {
+      "slide": 9,
+      "clicks": 6,
+      "motion": 6,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "六条Scalar指令逐次移入对应单元；文字、落点和讲稿一致。"
+    },
+    {
+      "slide": 10,
+      "clicks": 4,
+      "motion": 2,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "修复QK₁/PV₀途中遮挡；上下错开换位，结束后显示总结；已原生复放。"
+    },
+    {
+      "slide": 11,
+      "clicks": 3,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "长B、四个A、约束说明依次出现；讲稿两处动作措辞已修正。"
+    },
+    {
+      "slide": 12,
+      "clicks": 0,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "第三章切换页正常；无额外动画点击。"
+    },
+    {
+      "slide": 13,
+      "clicks": 3,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "用户流程、编译器工作、连接箭头三步对应讲稿。"
+    },
+    {
+      "slide": 14,
+      "clicks": 4,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "利用率、重叠批次、II、总时间公式与标尺四步对应。"
+    },
+    {
+      "slide": 15,
+      "clicks": 3,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "阶段k、位置r、buffer份数b依次出现。"
+    },
+    {
+      "slide": 16,
+      "clicks": 3,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "未知变量、已知时间、开始时间公式依次出现。"
+    },
+    {
+      "slide": 17,
+      "clicks": 3,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "生产消费图、同轮约束、跨轮约束依次出现。"
+    },
+    {
+      "slide": 18,
+      "clicks": 3,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "本轮写入/最后读取、下一次写入、容量限制依次出现；首步指图措辞已修正。"
+    },
+    {
+      "slide": 19,
+      "clicks": 3,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "占用区间、i在j前、j在i前三步对应。"
+    },
+    {
+      "slide": 20,
+      "clicks": 3,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "约束汇总与三色、未知量乘积、求解成本三步对应。"
+    },
+    {
+      "slide": 21,
+      "clicks": 4,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "固定II、Z3、可行分支、不可行分支四步对应。"
+    },
+    {
+      "slide": 22,
+      "clicks": 4,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "串行指令、重排指令、buffer写入、读取与同步四步对应。"
+    },
+    {
+      "slide": 23,
+      "clicks": 3,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "串行图、流水图、MFU三步对应；修复左侧两个归一标签断行并原生复放。"
+    },
+    {
+      "slide": 24,
+      "clicks": 0,
+      "motion": 0,
+      "nativeWpsPlaybackChecked": true,
+      "observation": "结束页正常；讲稿要求停止点击并进入提问。"
+    }
+  ]
+}

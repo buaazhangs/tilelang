@@ -1,0 +1,51 @@
+num_stage: 自动 multi-buffer 求解上限
+annotate_manual_multi_buffer：手动设置 multi-buffer 值
+assume_conflict：手动设置同步依赖
+T.SimdVF(latency=)：手动设置latency
+
+
+T        // copy Q GM->L1(MTE2) 
+
+for i = 0 → k - 1 do
+    T0   // lat=518   copy K  GM->L1 (MTE2)
+    T1   // lat=133   copy Q  L1->L0A (MTE1) 
+    T2   // lat=133   copy K  L1->L0B (MTE1)
+    T3   // lat=520   gemm QK^T (Cube)
+    T4   // lat=311   dual_copy L0C->S_ub (Fixpipe)
+    T5   // lat=735   softmax SimdVF (Vector)
+    T6   // lat=171   pack_p P_nz->P_shared (MTE3)
+    T7   // lat=518   copy V  GM->L1 (MTE2)
+    T8   // lat=133   copy P  L1->L0A (MTE1)
+    T9   // lat=133   copy V  L1->L0B (MTE1)
+    T10  // lat=520   gemm P V^T (Cube)
+    T11  // lat=311   dual_copy L0C->O_tmp (Fixpipe)
+    T12  // lat=318   accumulate_output (Vector)
+end for
+
+拆解为2阶段 Linear Porgramming 模型：
+Target：𝐦𝐢𝐧⁡〖𝑙𝑎𝑡𝑒𝑛𝑐𝑦(𝑇)+𝑙𝑎𝑡𝑒𝑛𝑐𝑦(𝑓𝑜𝑟)+𝑖𝑖 ∗(𝑘 −1)〗
+Target：𝐦𝐢𝐧⁡〖 𝑖𝑖 〗
+
+阶段1: 二分+可行解分析求解min ii
+阶段2：kernel最小时延
+
+阶段1: 
+二分下界 max(lat(T0), lat(T1), …, lat(T12))  // 完全并行 全掩盖
+二分上界 sum(lat(T0), lat(T1), …, lat(T12))  // 完全串行 无掩盖
+Subject to
+1. Conflict 冲突（RW/WR）
+内存 multi-buffer 为 dist，优先尊重用户指定，其次作为变量求解
+第 i 轮 Tu 指令下发时间为：ii * i + start_Tu
+Tu 数据被 Tv 使用的时间为：ii * (i + dist) + start_Tv
+因此有限制条件：
+𝑖𝑖 ∗ (𝑖 + 𝑑𝑖𝑠𝑡) + 𝑠𝑡𝑎𝑟𝑡_𝑇𝑣 – (𝑖𝑖 ∗ 𝑖 + 𝑠𝑡𝑎𝑟𝑡_𝑇𝑢) > 𝑙𝑎𝑡(𝑇𝑢)
+简化为（与迭代轮次 i 无关）
+𝑖𝑖 ∗ 𝑑𝑖𝑠𝑡 + 𝑠𝑡𝑎𝑟𝑡_𝑇𝑣 – 𝑠𝑡𝑎𝑟𝑡_𝑇𝑢 > 𝑙𝑎𝑡(𝑇𝑢)
+
+2. 指令序重排
+相同pipe的指令无法并行（在LP中增加bool判据）
+𝑠𝑡𝑎𝑟𝑡_𝑇𝑢 – 𝑠𝑡𝑎𝑟𝑡_𝑇𝑣 > 𝑙𝑎𝑡(𝑇𝑣)
+𝑠𝑡𝑎𝑟𝑡_𝑇𝑣 – 𝑠𝑡𝑎𝑟𝑡_𝑇𝑢 + 𝑖𝑖 > 𝑙𝑎𝑡(𝑇𝑢)
+
+𝑠𝑡𝑎𝑟𝑡_𝑇𝑣 – 𝑠𝑡𝑎𝑟𝑡_𝑇𝑢 > 𝑙𝑎𝑡(𝑇𝑢)
+𝑠𝑡𝑎𝑟𝑡_𝑇𝑢 – 𝑠𝑡𝑎𝑟𝑡_𝑇𝑣 + 𝑖𝑖 > 𝑙𝑎𝑡(𝑇𝑣)

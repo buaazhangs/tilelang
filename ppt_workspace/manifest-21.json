@@ -1,0 +1,23 @@
+{
+  "slide": 21,
+  "title": "谢谢，欢迎提问",
+  "clicks": 0,
+  "animations": [],
+  "items": [
+    {
+      "name": "P21_C00_001_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P21_C00_002_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P21_C00_003_text",
+      "k": 0,
+      "kind": "text"
+    }
+  ]
+}

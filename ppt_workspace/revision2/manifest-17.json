@@ -1,0 +1,169 @@
+{
+  "slide": 17,
+  "title": "数据依赖约束：生产者–消费者",
+  "clicks": 3,
+  "animations": [
+    {
+      "name": "R2_P17_C01_5_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C01_6_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C01_7_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C01_8_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C01_9_line",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C01_10_line",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C01_11_line",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C01_12_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C01_13_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C02_14_line",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C02_15_arrowhead",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C02_16_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C03_17_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P17_C03_18_text",
+      "click": 3,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "R2_P17_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P17_C00_2_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P17_C00_3_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P17_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P17_C01_5_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P17_C01_6_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P17_C01_7_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P17_C01_8_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P17_C01_9_line",
+      "k": 1,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P17_C01_10_line",
+      "k": 1,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P17_C01_11_line",
+      "k": 1,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P17_C01_12_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P17_C01_13_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P17_C02_14_line",
+      "k": 2,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P17_C02_15_arrowhead",
+      "k": 2,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P17_C02_16_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P17_C03_17_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P17_C03_18_text",
+      "k": 3,
+      "kind": "text"
+    }
+  ]
+}

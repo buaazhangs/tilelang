@@ -1,0 +1,234 @@
+{
+  "slide": 11,
+  "title": "编译器需要决定什么",
+  "clicks": 4,
+  "animations": [
+    {
+      "name": "P11_C01_010_window",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C01_011_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C01_012_window",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C01_013_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C01_014_window",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C01_015_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C01_016_window",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C01_017_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C01_018_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C01_019_arrow",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C01_020_arrowhead",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C01_021_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C02_022_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C02_023_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C03_024_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C04_025_task",
+      "click": 4,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C04_026_task",
+      "click": 4,
+      "effect": "fade"
+    },
+    {
+      "name": "P11_C04_027_task",
+      "click": 4,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "P11_C00_001_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C00_002_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C00_003_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C00_004_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C00_005_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C00_006_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C00_007_rule",
+      "k": 0,
+      "kind": "rule"
+    },
+    {
+      "name": "P11_C00_008_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C00_009_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C01_010_window",
+      "k": 1,
+      "kind": "window"
+    },
+    {
+      "name": "P11_C01_011_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C01_012_window",
+      "k": 1,
+      "kind": "window"
+    },
+    {
+      "name": "P11_C01_013_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C01_014_window",
+      "k": 1,
+      "kind": "window"
+    },
+    {
+      "name": "P11_C01_015_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C01_016_window",
+      "k": 1,
+      "kind": "window"
+    },
+    {
+      "name": "P11_C01_017_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C01_018_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P11_C01_019_arrow",
+      "k": 1,
+      "kind": "arrow"
+    },
+    {
+      "name": "P11_C01_020_arrowhead",
+      "k": 1,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "P11_C01_021_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C02_022_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C02_023_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C03_024_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "P11_C04_025_task",
+      "k": 4,
+      "kind": "task"
+    },
+    {
+      "name": "P11_C04_026_task",
+      "k": 4,
+      "kind": "task"
+    },
+    {
+      "name": "P11_C04_027_task",
+      "k": 4,
+      "kind": "task"
+    }
+  ]
+}

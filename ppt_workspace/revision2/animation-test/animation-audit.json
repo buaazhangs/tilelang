@@ -1,0 +1,2638 @@
+{
+  "inputSha256": "8872bb31cd556e708a614c04b7781d5e326de92084e5ee12649971e0f6b15854",
+  "templateSha256": "9b654dc526147ab553821eed0cfdd2b43511995c0f5362e676fe0e6c2d0d45f7",
+  "outputSha256": "9fda39adcaf3a0b062fddba202f0748a6d5416299966ec9068f4283cd89e42da",
+  "slides": 23,
+  "totalClickGroups": 71,
+  "totalEffects": 346,
+  "totalMotionEffects": 1,
+  "nativeSlideshowVerified": false,
+  "perSlide": [
+    {
+      "slide": 1,
+      "clicks": 1,
+      "effects": 3,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P01_C01_003_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "66",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P01_C01_004_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "67",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P01_C01_005_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "68",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "clicks": 4,
+      "effects": 28,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P02_C01_010_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C01_011_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_012_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_013_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_014_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_015_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_016_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_017_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_018_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_019_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_020_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_021_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_022_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_023_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C02_024_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C03_025_task",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "88",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C03_026_task",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "89",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C03_027_task",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "90",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C03_028_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "91",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C03_029_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "92",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C03_030_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "93",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C04_031_arrow",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "94",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C04_032_arrowhead",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "95",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C04_033_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "96",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C04_034_arrow",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "97",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C04_035_arrowhead",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "98",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C04_036_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "99",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P02_C04_037_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "100",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "clicks": 3,
+      "effects": 23,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P03_C01_010_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_011_rule",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_012_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_013_rule",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_014_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_015_rule",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_016_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_017_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_018_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_019_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_020_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_021_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_022_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_023_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C01_032_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "95",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C02_024_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C02_025_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "88",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C03_026_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "89",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C03_027_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "90",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C03_028_box",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "91",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C03_029_box",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "92",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C03_030_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "93",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P03_C03_031_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "94",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 4,
+      "clicks": 3,
+      "effects": 8,
+      "motionEffects": 1,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P04_C00_016_task",
+          "click": 1,
+          "effect": "motion",
+          "targetId": "79",
+          "durationSeconds": 0.75
+        },
+        {
+          "name": "P04_C01_017_arrow",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P04_C01_018_arrowhead",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P04_C01_019_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P04_C02_020_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P04_C03_021_task",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P04_C03_022_task",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P04_C03_023_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "clicks": 3,
+      "effects": 16,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P05_C01_010_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C01_011_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C01_012_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C01_013_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C01_014_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C01_015_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C01_022_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C02_016_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C02_017_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C02_018_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C02_019_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C02_020_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C02_021_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C03_023_task",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C03_024_task",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P05_C03_025_task",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "88",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 6,
+      "clicks": 4,
+      "effects": 12,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P06_C01_018_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P06_C02_019_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P06_C02_020_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P06_C02_021_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P06_C02_022_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P06_C02_023_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P06_C02_024_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P06_C02_025_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "88",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P06_C02_026_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "89",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P06_C03_027_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "90",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P06_C03_028_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "91",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P06_C04_029_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "92",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 7,
+      "clicks": 4,
+      "effects": 30,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P07_C01_010_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C01_011_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_012_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_013_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_014_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_015_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_016_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_017_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_018_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_019_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_020_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_021_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_022_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_023_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_024_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_025_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "88",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_026_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "89",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_027_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "90",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_028_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "91",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_029_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "92",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_030_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "93",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_031_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "94",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_032_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "95",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_033_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "96",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_034_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "97",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C02_035_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "98",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C03_036_arrow",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "99",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C03_037_arrowhead",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "100",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C03_038_task",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "101",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P07_C04_039_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "102",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 8,
+      "clicks": 3,
+      "effects": 14,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P08_C01_011_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C01_012_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C01_013_arrow",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C01_014_arrowhead",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C01_015_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C02_016_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C02_017_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C02_018_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C02_019_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C02_020_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C02_021_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C03_022_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C03_023_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P08_C03_024_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "clicks": 3,
+      "effects": 16,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P09_C01_010_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C01_012_box",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C01_013_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C01_025_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "88",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C02_011_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C02_014_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C02_015_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C02_016_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C02_017_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C02_018_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C02_019_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C02_020_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C02_021_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C02_022_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C02_023_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P09_C03_024_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 10,
+      "clicks": 4,
+      "effects": 24,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P10_C01_010_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_011_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_012_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_013_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_014_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_015_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_016_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_017_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_018_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_019_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_020_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_021_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_022_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_023_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_024_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C01_025_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "88",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C02_026_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "89",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C02_027_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "90",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C02_028_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "91",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C03_029_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "92",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C03_030_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "93",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C03_031_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "94",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C03_032_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "95",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P10_C04_033_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "96",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 11,
+      "clicks": 4,
+      "effects": 18,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P11_C01_010_window",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C01_011_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C01_012_window",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C01_013_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C01_014_window",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C01_015_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C01_016_window",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C01_017_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C01_018_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C01_019_arrow",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C01_020_arrowhead",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C01_021_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C02_022_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C02_023_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C03_024_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C04_025_task",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "88",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C04_026_task",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "89",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P11_C04_027_task",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "90",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 12,
+      "clicks": 4,
+      "effects": 15,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P12_C01_010_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C01_011_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C01_012_arrow",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C01_013_arrowhead",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C01_014_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C01_016_arrow",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C01_017_arrow",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C01_018_arrow",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C01_019_arrowhead",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C01_020_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C01_021_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C02_022_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C03_023_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C03_024_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P12_C04_025_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "88",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 13,
+      "clicks": 4,
+      "effects": 15,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P13_C01_010_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C01_011_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C01_012_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C01_013_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C01_014_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C01_015_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C01_016_arrow",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C01_017_arrowhead",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C01_018_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C02_019_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C03_020_clear_old_reuse",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C03_021_task",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C03_022_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C03_023_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P13_C04_024_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 14,
+      "clicks": 6,
+      "effects": 16,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P14_C01_010_resource_arc",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C01_012_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C01_014_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C02_011_resource_arc",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C02_013_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C02_019_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C02_020_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C03_015_arrow",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C03_016_arrowhead",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C03_017_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C03_018_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C03_021_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C03_022_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C04_023_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C05_024_text",
+          "click": 5,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P14_C06_025_text",
+          "click": 6,
+          "effect": "fade",
+          "targetId": "88",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 15,
+      "clicks": 3,
+      "effects": 12,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P15_C01_010_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P15_C01_011_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P15_C01_012_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P15_C01_013_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P15_C02_014_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P15_C02_015_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P15_C02_016_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P15_C03_017_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P15_C03_018_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P15_C03_019_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P15_C03_020_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P15_C03_021_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 16,
+      "clicks": 5,
+      "effects": 15,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P16_C01_010_rule",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C01_011_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C01_012_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C02_013_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C02_014_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C02_015_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C02_016_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C02_017_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C02_019_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C02_020_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C03_018_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C03_021_arrow",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C03_022_arrowhead",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C04_023_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P16_C05_024_text",
+          "click": 5,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 17,
+      "clicks": 4,
+      "effects": 12,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P17_C01_010_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P17_C01_011_task",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P17_C02_012_arrow",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P17_C02_013_arrowhead",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P17_C02_014_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P17_C02_015_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P17_C02_016_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P17_C02_017_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P17_C02_018_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P17_C03_019_task",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P17_C04_020_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P17_C04_021_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 18,
+      "clicks": 3,
+      "effects": 47,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P18_C01_010_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_011_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_012_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_013_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_015_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_016_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_018_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_019_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_020_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_022_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_023_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "86",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_025_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "88",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_026_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "89",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_028_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "91",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_029_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "92",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_031_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "94",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_032_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "95",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_033_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "96",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_035_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "98",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_036_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "99",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_038_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "101",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_039_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "102",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_040_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "103",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_042_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "105",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_043_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "106",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_045_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "108",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_046_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "109",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_047_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "110",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_049_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "112",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_050_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "113",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_052_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "115",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_053_task",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "116",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C02_054_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "117",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_014_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_017_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_021_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_024_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "87",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_027_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "90",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_030_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "93",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_034_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "97",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_037_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "100",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_041_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "104",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_044_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "107",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_048_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "111",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_051_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "114",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_055_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "118",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P18_C03_056_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "119",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 19,
+      "clicks": 4,
+      "effects": 9,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P19_C01_010_chart",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P19_C01_011_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P19_C01_012_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P19_C01_018_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P19_C02_013_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P19_C02_014_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P19_C02_015_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P19_C03_016_text",
+          "click": 3,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P19_C04_017_text",
+          "click": 4,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 20,
+      "clicks": 2,
+      "effects": 13,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": [
+        {
+          "name": "P20_C01_010_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "73",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P20_C01_011_arrow",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "74",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P20_C01_012_arrowhead",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "75",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P20_C01_013_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "76",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P20_C01_014_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "77",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P20_C01_015_arrow",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "78",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P20_C01_016_arrowhead",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "79",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P20_C01_017_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "80",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P20_C01_018_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "81",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P20_C01_019_arrow",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "82",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P20_C01_020_arrowhead",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "83",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P20_C01_021_text",
+          "click": 1,
+          "effect": "fade",
+          "targetId": "84",
+          "durationSeconds": 0.28
+        },
+        {
+          "name": "P20_C02_022_text",
+          "click": 2,
+          "effect": "fade",
+          "targetId": "85",
+          "durationSeconds": 0.28
+        }
+      ]
+    },
+    {
+      "slide": 21,
+      "clicks": 0,
+      "effects": 0,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": []
+    },
+    {
+      "slide": 22,
+      "clicks": 0,
+      "effects": 0,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": []
+    },
+    {
+      "slide": 23,
+      "clicks": 0,
+      "effects": 0,
+      "motionEffects": 0,
+      "hidden": false,
+      "details": []
+    }
+  ]
+}

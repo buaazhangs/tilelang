@@ -1,0 +1,214 @@
+{
+  "slide": 5,
+  "title": "GPU 的工人与工头",
+  "clicks": 3,
+  "animations": [
+    {
+      "name": "P05_C01_010_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C01_011_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C01_012_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C01_013_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C01_014_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C01_015_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C02_016_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C02_017_arrow",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C02_018_arrowhead",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C02_019_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C02_020_arrow",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C02_021_arrowhead",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C01_022_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C03_023_task",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C03_024_task",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P05_C03_025_task",
+      "click": 3,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "P05_C00_001_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P05_C00_002_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P05_C00_003_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P05_C00_004_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P05_C00_005_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P05_C00_006_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P05_C00_007_rule",
+      "k": 0,
+      "kind": "rule"
+    },
+    {
+      "name": "P05_C00_008_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P05_C00_009_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P05_C01_010_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P05_C01_011_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P05_C01_012_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P05_C01_013_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P05_C01_014_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P05_C01_015_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P05_C02_016_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "P05_C02_017_arrow",
+      "k": 2,
+      "kind": "arrow"
+    },
+    {
+      "name": "P05_C02_018_arrowhead",
+      "k": 2,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "P05_C02_019_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "P05_C02_020_arrow",
+      "k": 2,
+      "kind": "arrow"
+    },
+    {
+      "name": "P05_C02_021_arrowhead",
+      "k": 2,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "P05_C01_022_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P05_C03_023_task",
+      "k": 3,
+      "kind": "task"
+    },
+    {
+      "name": "P05_C03_024_task",
+      "k": 3,
+      "kind": "task"
+    },
+    {
+      "name": "P05_C03_025_task",
+      "k": 3,
+      "kind": "task"
+    }
+  ]
+}

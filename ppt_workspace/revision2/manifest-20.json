@@ -1,0 +1,189 @@
+{
+  "slide": 20,
+  "title": "建模总结",
+  "clicks": 3,
+  "animations": [
+    {
+      "name": "R2_P20_C01_5_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_6_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_7_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_8_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_9_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_10_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_11_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_12_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_13_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_14_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_15_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_16_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_17_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C01_18_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C02_19_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P20_C03_20_text",
+      "click": 3,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "R2_P20_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C00_2_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P20_C00_3_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_5_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_6_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_7_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_8_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_9_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_10_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_11_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_12_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_13_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_14_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_15_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_16_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_17_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C01_18_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C02_19_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P20_C03_20_text",
+      "k": 3,
+      "kind": "text"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "slide": 8,
+  "title": "排班质量决定等待",
+  "clicks": 3,
+  "animations": [
+    {
+      "name": "P08_C01_011_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C01_012_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C01_013_arrow",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C01_014_arrowhead",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C01_015_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C02_016_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C02_017_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C02_018_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C02_019_arrow",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C02_020_arrowhead",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C02_021_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C03_022_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C03_023_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P08_C03_024_text",
+      "click": 3,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "P08_C00_001_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C00_002_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C00_003_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C00_004_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C00_005_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C00_006_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C00_007_rule",
+      "k": 0,
+      "kind": "rule"
+    },
+    {
+      "name": "P08_C00_008_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C00_009_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C00_010_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C01_011_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P08_C01_012_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P08_C01_013_arrow",
+      "k": 1,
+      "kind": "arrow"
+    },
+    {
+      "name": "P08_C01_014_arrowhead",
+      "k": 1,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "P08_C01_015_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C02_016_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C02_017_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "P08_C02_018_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "P08_C02_019_arrow",
+      "k": 2,
+      "kind": "arrow"
+    },
+    {
+      "name": "P08_C02_020_arrowhead",
+      "k": 2,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "P08_C02_021_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C03_022_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C03_023_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "P08_C03_024_text",
+      "k": 3,
+      "kind": "text"
+    }
+  ]
+}

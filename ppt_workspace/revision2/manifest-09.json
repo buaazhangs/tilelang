@@ -1,0 +1,162 @@
+{
+  "slide": 9,
+  "title": "昇腾950执行模型",
+  "clicks": 6,
+  "animations": [
+    {
+      "name": "R2_P09_C00_8_task",
+      "click": 1,
+      "effect": "motion",
+      "dx": 0,
+      "dy": 183,
+      "duration": 0.6
+    },
+    {
+      "name": "R2_P09_C00_9_task",
+      "click": 2,
+      "effect": "motion",
+      "dx": 179,
+      "dy": 183,
+      "duration": 0.6
+    },
+    {
+      "name": "R2_P09_C00_10_task",
+      "click": 3,
+      "effect": "motion",
+      "dx": 363,
+      "dy": 183,
+      "duration": 0.6
+    },
+    {
+      "name": "R2_P09_C00_11_task",
+      "click": 4,
+      "effect": "motion",
+      "dx": -183,
+      "dy": 248,
+      "duration": 0.6
+    },
+    {
+      "name": "R2_P09_C00_12_task",
+      "click": 5,
+      "effect": "motion",
+      "dx": -364,
+      "dy": 313,
+      "duration": 0.6
+    },
+    {
+      "name": "R2_P09_C00_13_task",
+      "click": 6,
+      "effect": "motion",
+      "dx": -180,
+      "dy": 248,
+      "duration": 0.6
+    },
+    {
+      "name": "R2_P09_C06_20_text",
+      "click": 6,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "R2_P09_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P09_C00_2_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P09_C00_3_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P09_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P09_C00_5_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P09_C00_6_scalar",
+      "k": 0,
+      "kind": "scalar"
+    },
+    {
+      "name": "R2_P09_C00_7_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P09_C00_8_task",
+      "k": 0,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P09_C00_9_task",
+      "k": 0,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P09_C00_10_task",
+      "k": 0,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P09_C00_11_task",
+      "k": 0,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P09_C00_12_task",
+      "k": 0,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P09_C00_13_task",
+      "k": 0,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P09_C00_14_unit",
+      "k": 0,
+      "kind": "unit"
+    },
+    {
+      "name": "R2_P09_C00_15_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P09_C00_16_unit",
+      "k": 0,
+      "kind": "unit"
+    },
+    {
+      "name": "R2_P09_C00_17_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P09_C00_18_unit",
+      "k": 0,
+      "kind": "unit"
+    },
+    {
+      "name": "R2_P09_C00_19_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P09_C06_20_text",
+      "k": 6,
+      "kind": "text"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slide": 1,
+  "title": "Tilelang — 支持昇腾算子高性能运行",
+  "clicks": 0,
+  "animations": [],
+  "items": [
+    {
+      "name": "R2_P01_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P01_C00_2_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P01_C00_3_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P01_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P01_C00_5_text",
+      "k": 0,
+      "kind": "text"
+    }
+  ]
+}

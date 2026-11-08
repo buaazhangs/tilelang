@@ -1,0 +1,349 @@
+{
+  "slide": 23,
+  "title": "硬件利用率能提升多少",
+  "clicks": 3,
+  "animations": [
+    {
+      "name": "R2_P23_C01_5_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_6_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_7_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_8_line",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_9_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_10_line",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_11_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_12_line",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_13_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_14_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_15_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_16_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_17_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_18_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_19_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C01_20_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_21_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_22_line",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_23_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_24_line",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_25_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_26_line",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_27_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_28_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_29_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_30_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_31_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_32_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_33_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C02_34_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C03_35_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P23_C03_36_text",
+      "click": 3,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "R2_P23_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P23_C00_2_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P23_C00_3_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P23_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P23_C01_5_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P23_C02_6_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P23_C01_7_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P23_C01_8_line",
+      "k": 1,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P23_C01_9_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P23_C01_10_line",
+      "k": 1,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P23_C01_11_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P23_C01_12_line",
+      "k": 1,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P23_C01_13_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C01_14_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C01_15_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C01_16_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C01_17_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C01_18_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C01_19_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C01_20_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C02_21_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P23_C02_22_line",
+      "k": 2,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P23_C02_23_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P23_C02_24_line",
+      "k": 2,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P23_C02_25_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P23_C02_26_line",
+      "k": 2,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P23_C02_27_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C02_28_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C02_29_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C02_30_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C02_31_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C02_32_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C02_33_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C02_34_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P23_C03_35_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P23_C03_36_text",
+      "k": 3,
+      "kind": "text"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "slide": 13,
+  "title": "TileLang的职责",
+  "clicks": 3,
+  "animations": [
+    {
+      "name": "R2_P13_C01_5_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P13_C01_6_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P13_C02_7_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P13_C02_8_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P13_C02_9_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P13_C02_10_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P13_C02_11_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P13_C03_12_line",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P13_C03_13_arrowhead",
+      "click": 3,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "R2_P13_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P13_C00_2_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P13_C00_3_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P13_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P13_C01_5_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P13_C01_6_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P13_C02_7_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P13_C02_8_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P13_C02_9_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P13_C02_10_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P13_C02_11_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P13_C03_12_line",
+      "k": 3,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P13_C03_13_arrowhead",
+      "k": 3,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P13_C00_14_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P13_C00_15_text",
+      "k": 0,
+      "kind": "text"
+    }
+  ]
+}

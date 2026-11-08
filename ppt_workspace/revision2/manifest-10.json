@@ -1,0 +1,182 @@
+{
+  "slide": 10,
+  "title": "提前调整执行顺序，提高硬件利用率",
+  "clicks": 4,
+  "animations": [
+    {
+      "name": "R2_P10_C01_5_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P10_C01_6_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P10_C01_7_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P10_C01_8_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P10_C02_9_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P10_C03_10_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P10_C03_11_task",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P10_C03_12_task",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P10_C03_12_task",
+      "click": 4,
+      "effect": "motion",
+      "dx": 386,
+      "dy": 0,
+      "duration": 1.2,
+      "pathPoints": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ],
+        [
+          386,
+          80
+        ],
+        [
+          386,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "R2_P10_C03_13_task",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P10_C03_13_task",
+      "click": 4,
+      "effect": "motion",
+      "dx": -386,
+      "dy": 0,
+      "duration": 1.2,
+      "pathPoints": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -80
+        ],
+        [
+          -386,
+          -80
+        ],
+        [
+          -386,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "R2_P10_C04_14_text",
+      "click": 4,
+      "effect": "fade",
+      "delay": 1.2
+    }
+  ],
+  "items": [
+    {
+      "name": "R2_P10_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P10_C00_2_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P10_C00_3_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P10_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P10_C01_5_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P10_C01_6_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P10_C01_7_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P10_C01_8_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P10_C02_9_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P10_C03_10_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P10_C03_11_task",
+      "k": 3,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P10_C03_12_task",
+      "k": 3,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P10_C03_13_task",
+      "k": 3,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P10_C04_14_text",
+      "k": 4,
+      "kind": "text"
+    }
+  ]
+}

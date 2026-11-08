@@ -1,0 +1,229 @@
+{
+  "slide": 8,
+  "title": "见缝插针",
+  "clicks": 4,
+  "animations": [
+    {
+      "name": "R2_P08_C01_7_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C01_8_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C02_9_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C02_10_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C02_11_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C02_12_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C02_13_line",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C02_14_arrowhead",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C01_15_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C01_16_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C03_17_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C03_18_task",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C03_19_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C03_20_task",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C03_21_line",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C03_22_arrowhead",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C04_23_text",
+      "click": 4,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P08_C04_24_text",
+      "click": 4,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "R2_P08_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C00_2_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P08_C00_3_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C00_5_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C00_6_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C01_7_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C01_8_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P08_C02_9_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C02_10_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P08_C02_11_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C02_12_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P08_C02_13_line",
+      "k": 2,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P08_C02_14_arrowhead",
+      "k": 2,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P08_C01_15_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C01_16_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P08_C03_17_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C03_18_task",
+      "k": 3,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P08_C03_19_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C03_20_task",
+      "k": 3,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P08_C03_21_line",
+      "k": 3,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P08_C03_22_arrowhead",
+      "k": 3,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "R2_P08_C04_23_text",
+      "k": 4,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C04_24_text",
+      "k": 4,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P08_C00_25_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P08_C00_26_text",
+      "k": 0,
+      "kind": "text"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "slide": 11,
+  "title": "不同任务耗时，让流水编排更复杂",
+  "clicks": 3,
+  "animations": [
+    {
+      "name": "R2_P11_C01_5_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P11_C01_6_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P11_C01_7_line",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P11_C01_8_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P11_C02_9_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P11_C02_10_line",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P11_C02_11_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P11_C02_12_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P11_C02_13_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P11_C02_14_task",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P11_C03_15_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "R2_P11_C03_16_text",
+      "click": 3,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "R2_P11_C00_1_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P11_C00_2_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P11_C00_3_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P11_C00_4_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P11_C01_5_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P11_C01_6_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P11_C01_7_line",
+      "k": 1,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P11_C01_8_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P11_C02_9_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P11_C02_10_line",
+      "k": 2,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P11_C02_11_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P11_C02_12_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P11_C02_13_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P11_C02_14_task",
+      "k": 2,
+      "kind": "task"
+    },
+    {
+      "name": "R2_P11_C03_15_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P11_C03_16_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "R2_P11_C00_17_line",
+      "k": 0,
+      "kind": "line"
+    },
+    {
+      "name": "R2_P11_C00_18_text",
+      "k": 0,
+      "kind": "text"
+    }
+  ]
+}

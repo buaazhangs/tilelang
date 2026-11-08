@@ -1,0 +1,51 @@
+当前最新版：TileLang_昇腾模调度_视觉精修版.pptx
+统一背景、标题/关键词、任务卡、公式框与资源配色已精修；旧版本归档至ppt_workspace，交付目录仅保留最新版。
+最终文件检查：ppt_workspace/visual-final-validation-v2.json。71组动画引用与23页均已校验；P09/P10/P16底部重叠已消除。
+最新逐页预览：ppt_workspace/visual-v2-final-renders/。本轮未增加完整实机放映验证。
+
+让昇腾的机器不闲着 — TileLang Ascend AutoSchedule 模调度
+
+交付文件
+1. TileLang_昇腾模调度_视觉精修版.pptx：正式讲解文件。
+2. 配套演讲稿.md：逐页讲稿，含点击、指图、停顿和翻页动作；正文也已写入PPT备注。
+
+讲解安排
+主讲P01—P20约35分钟，P21提问约3—5分钟，共21页主线。
+第22、23页为隐藏备用页，分别解释二分单调性、理论下界与代码初始界。
+时间为技术讲解速度与停顿预算估计，尚未经过现场试讲。
+
+播放
+使用PPTX文件的放映模式，以鼠标单击、空格或右箭头逐步展开。
+主线共71组点击，逐页次数：1,4,3,3,3,4,4,3,3,4,4,4,4,6,3,5,4,3,4,2,0。
+没有自动翻页。动画采用原生淡入与P04位移，便于控制讲解节奏；P13点击3替换货位示意是有意叠放。
+图片已嵌入。图形、箭头、文字与P19数据图可编辑，图表附嵌入工作簿。
+字体使用微软雅黑和Consolas。
+
+内容口径
+FlashAttention工厂比喻贯穿全场。Hopper同样可用静态流水与任务分工，warp scheduler仍负责动态选择就绪工作。
+P18—P19是参考耗时下的理想模型推演，非硬件实测；4.23倍为模型条件下的长循环加速上限，98.77%为Cube理论忙碌比例，不是实测MFU。
+P16主图讲资源工作量下界的推导；代码使用的初始搜索范围另见B2。
+
+相对早期框图的视觉落实
+P03以灰色“空等”色块标记等待，未采用斜线填充。
+P04使用原生位移，P13使用逐次出现的覆盖层，其他过程按组淡入。
+原规划中的指图措辞已在配套演讲稿中对应到实际元素。
+
+检查范围
+23页版面完成逐页目视检查；P06最终文字修订又单独渲染检查。
+最终PPTX的包关系、全部动画引用、71组点击、隐藏备用页、备注、图表引用及6个数据值已检查。
+本机办公软件实际为WPS兼容接口，不能视为Microsoft PowerPoint实机验证。
+已尝试WPS全屏放映，工具无法可靠捕获放映层，后续窗口操作超时；完整动态放映效果尚未确认。
+
+源文件与审阅记录
+制作源：../ppt_workspace/build_deck.mjs
+动画源：../ppt_workspace/add_animations.ps1
+视觉版本动画迁移：../ppt_workspace/transfer_animations.py
+最终校验：../ppt_workspace/visual-final-validation-v2.json
+图片来源：../ppt_workspace/ASSETS.md
+逐页预览：../ppt_workspace/visual-v2-final-renders/
+讨论与审阅：../GPT vs claude.md；../PPT制作协作.md
+
+技术补充来源
+NVIDIA Hopper Tuning Guide：https://docs.nvidia.com/cuda/hopper-tuning-guide/
+CUTLASS Efficient GEMM：https://docs.nvidia.com/cutlass/4.5.2/media/docs/cpp/efficient_gemm.html

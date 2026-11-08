@@ -1,0 +1,204 @@
+{
+  "slide": 13,
+  "title": "货位复用也有先后",
+  "clicks": 4,
+  "animations": [
+    {
+      "name": "P13_C01_010_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C01_011_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C01_012_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C01_013_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C01_014_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C01_015_task",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C01_016_arrow",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C01_017_arrowhead",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C01_018_text",
+      "click": 1,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C02_019_text",
+      "click": 2,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C03_020_clear_old_reuse",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C03_021_task",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C03_022_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C03_023_text",
+      "click": 3,
+      "effect": "fade"
+    },
+    {
+      "name": "P13_C04_024_text",
+      "click": 4,
+      "effect": "fade"
+    }
+  ],
+  "items": [
+    {
+      "name": "P13_C00_001_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C00_002_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C00_003_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C00_004_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C00_005_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C00_006_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C00_007_rule",
+      "k": 0,
+      "kind": "rule"
+    },
+    {
+      "name": "P13_C00_008_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C00_009_text",
+      "k": 0,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C01_010_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C01_011_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P13_C01_012_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C01_013_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P13_C01_014_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C01_015_task",
+      "k": 1,
+      "kind": "task"
+    },
+    {
+      "name": "P13_C01_016_arrow",
+      "k": 1,
+      "kind": "arrow"
+    },
+    {
+      "name": "P13_C01_017_arrowhead",
+      "k": 1,
+      "kind": "arrowhead"
+    },
+    {
+      "name": "P13_C01_018_text",
+      "k": 1,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C02_019_text",
+      "k": 2,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C03_020_clear_old_reuse",
+      "k": 3,
+      "kind": "clear_old_reuse"
+    },
+    {
+      "name": "P13_C03_021_task",
+      "k": 3,
+      "kind": "task"
+    },
+    {
+      "name": "P13_C03_022_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C03_023_text",
+      "k": 3,
+      "kind": "text"
+    },
+    {
+      "name": "P13_C04_024_text",
+      "k": 4,
+      "kind": "text"
+    }
+  ]
+}
