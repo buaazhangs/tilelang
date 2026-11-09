@@ -1,0 +1,2374 @@
+[
+  {
+    "page": 1,
+    "part": "ppt/slides/slide1.xml",
+    "clickGroups": 0,
+    "newElements": [],
+    "newUnanimated": []
+  },
+  {
+    "page": 2,
+    "part": "ppt/slides/slide2.xml",
+    "clickGroups": 0,
+    "newElements": [],
+    "newUnanimated": []
+  },
+  {
+    "page": 3,
+    "part": "ppt/slides/slide3.xml",
+    "clickGroups": 4,
+    "newElements": [
+      {
+        "id": "9060",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9061",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9062",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9060",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9061",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9062",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "part": "ppt/slides/slide4.xml",
+    "clickGroups": 1,
+    "newElements": [
+      {
+        "id": "9080",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "44",
+        "name": "R2_P03_C04_44_line",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": true,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "5212715",
+            "y": "1905000"
+          },
+          "ext": {
+            "cx": "3620135",
+            "cy": "638810"
+          }
+        }
+      },
+      {
+        "id": "42",
+        "name": "R2_P05_C02_16_text",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "需等待 | softmax | 完成",
+        "animated": true,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "9239250",
+            "y": "1557020"
+          },
+          "ext": {
+            "cx": "2276475",
+            "cy": "600710"
+          }
+        }
+      },
+      {
+        "id": "45",
+        "name": "R2_P03_C04_44_line",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": true,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "4377690",
+            "y": "3882390"
+          },
+          "ext": {
+            "cx": "5073650",
+            "cy": "443865"
+          }
+        }
+      },
+      {
+        "id": "48",
+        "name": "R2_P05_C02_16_text",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "需等待 | 上一批次完成",
+        "animated": true,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "9563735",
+            "y": "4057650"
+          },
+          "ext": {
+            "cx": "2628265",
+            "cy": "600710"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9080",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "part": "ppt/slides/slide5.xml",
+    "clickGroups": 4,
+    "newElements": [
+      {
+        "id": "9100",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9101",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9102",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9100",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9101",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9102",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "part": "ppt/slides/slide6.xml",
+    "clickGroups": 0,
+    "newElements": [],
+    "newUnanimated": []
+  },
+  {
+    "page": 7,
+    "part": "ppt/slides/slide7.xml",
+    "clickGroups": 3,
+    "newElements": [
+      {
+        "id": "9140",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9141",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9142",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9140",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9141",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9142",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "part": "ppt/slides/slide8.xml",
+    "clickGroups": 4,
+    "newElements": [
+      {
+        "id": "9160",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9161",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9162",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9160",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9161",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9162",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "part": "ppt/slides/slide9.xml",
+    "clickGroups": 6,
+    "newElements": [
+      {
+        "id": "9180",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9181",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9182",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9180",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9181",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9182",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "part": "ppt/slides/slide10.xml",
+    "clickGroups": 4,
+    "newElements": [
+      {
+        "id": "9200",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9201",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9202",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9200",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9201",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9202",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "part": "ppt/slides/slide11.xml",
+    "clickGroups": 3,
+    "newElements": [
+      {
+        "id": "9220",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9221",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9222",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9220",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9221",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9222",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "part": "ppt/slides/slide12.xml",
+    "clickGroups": 0,
+    "newElements": [],
+    "newUnanimated": []
+  },
+  {
+    "page": 13,
+    "part": "ppt/slides/slide13.xml",
+    "clickGroups": 3,
+    "newElements": [
+      {
+        "id": "9260",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9261",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9262",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9260",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9261",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9262",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "part": "ppt/slides/slide14.xml",
+    "clickGroups": 4,
+    "newElements": [
+      {
+        "id": "9280",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9281",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9282",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9280",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9281",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9282",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "part": "ppt/slides/slide15.xml",
+    "clickGroups": 3,
+    "newElements": [
+      {
+        "id": "9300",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9301",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9302",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9300",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9301",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9302",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "part": "ppt/slides/slide16.xml",
+    "clickGroups": 3,
+    "newElements": [
+      {
+        "id": "9320",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9321",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9322",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9320",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9321",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9322",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "part": "ppt/slides/slide17.xml",
+    "clickGroups": 3,
+    "newElements": [
+      {
+        "id": "9340",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9341",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9342",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9340",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9341",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9342",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "part": "ppt/slides/slide18.xml",
+    "clickGroups": 3,
+    "newElements": [
+      {
+        "id": "9360",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9361",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9362",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9360",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9361",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9362",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "part": "ppt/slides/slide19.xml",
+    "clickGroups": 3,
+    "newElements": [
+      {
+        "id": "9380",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9381",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9382",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9380",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9381",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9382",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "part": "ppt/slides/slide20.xml",
+    "clickGroups": 3,
+    "newElements": [
+      {
+        "id": "9400",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9401",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9402",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9400",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9401",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9402",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "part": "ppt/slides/slide21.xml",
+    "clickGroups": 4,
+    "newElements": [
+      {
+        "id": "9420",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9421",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9422",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9420",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9421",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9422",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "part": "ppt/slides/slide22.xml",
+    "clickGroups": 4,
+    "newElements": [
+      {
+        "id": "9440",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9441",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9442",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9440",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9441",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9442",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "part": "ppt/slides/slide23.xml",
+    "clickGroups": 3,
+    "newElements": [
+      {
+        "id": "9460",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9461",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9462",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ],
+    "newUnanimated": [
+      {
+        "id": "9460",
+        "name": "BEAUTY_card",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "381000",
+            "y": "1295400"
+          },
+          "ext": {
+            "cx": "11430000",
+            "cy": "4860000"
+          }
+        }
+      },
+      {
+        "id": "9461",
+        "name": "BEAUTY_title_mark",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "457200",
+            "y": "400050"
+          },
+          "ext": {
+            "cx": "38100",
+            "cy": "438150"
+          }
+        }
+      },
+      {
+        "id": "9462",
+        "name": "BEAUTY_rule_accent",
+        "kind": "sp",
+        "parentGroup": null,
+        "text": "",
+        "animated": false,
+        "groupAnimated": false,
+        "xfrm": {
+          "off": {
+            "x": "609600",
+            "y": "1181100"
+          },
+          "ext": {
+            "cx": "914400",
+            "cy": "25400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": 24,
+    "part": "ppt/slides/slide24.xml",
+    "clickGroups": 0,
+    "newElements": [],
+    "newUnanimated": []
+  }
+]

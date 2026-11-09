@@ -1,0 +1,134 @@
+{
+  "sourceSha256": "7ff4800acc4fba7fe51b06a27772cdd9e29681f5565d2f26431a4b5ca0e6eed4",
+  "candidateSha256": "1c26329ee52839b69dd3176a9889e89d4f1af8ca0652d1656303f39285da3428",
+  "changedPages": [
+    2,
+    4,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    16,
+    21
+  ],
+  "animations": [
+    {
+      "page": 2,
+      "shapeId": "4",
+      "text": "为什么算力没有被充分利用？",
+      "oldClicks": 0,
+      "newClicks": 1,
+      "effect": "fade",
+      "durationMs": 300,
+      "trigger": "last manual click"
+    },
+    {
+      "page": 4,
+      "shapeId": "46",
+      "text": "怎样减少硬件空转？",
+      "oldClicks": 1,
+      "newClicks": 2,
+      "effect": "fade",
+      "durationMs": 300,
+      "trigger": "last manual click"
+    },
+    {
+      "page": 5,
+      "shapeId": "21",
+      "text": "如何实现？先看硬件的执行模型。",
+      "oldClicks": 4,
+      "newClicks": 5,
+      "effect": "fade",
+      "durationMs": 300,
+      "trigger": "last manual click"
+    },
+    {
+      "page": 7,
+      "shapeId": "31",
+      "text": "各个warp如何协同工作？",
+      "oldClicks": 3,
+      "newClicks": 4,
+      "effect": "fade",
+      "durationMs": 300,
+      "trigger": "last manual click"
+    },
+    {
+      "page": 8,
+      "shapeId": "26",
+      "text": "昇腾的执行模型怎样组织任务？",
+      "oldClicks": 4,
+      "newClicks": 5,
+      "effect": "fade",
+      "durationMs": 300,
+      "trigger": "last manual click"
+    },
+    {
+      "page": 11,
+      "shapeId": "18",
+      "text": "TileLang编译后端自动排流水，支持昇腾算子高性能运行。",
+      "oldClicks": 3,
+      "newClicks": 4,
+      "effect": "fade",
+      "durationMs": 300,
+      "trigger": "last manual click"
+    },
+    {
+      "page": 12,
+      "shapeId": "5",
+      "text": "怎样把计算流程变成高效流水？",
+      "oldClicks": 0,
+      "newClicks": 1,
+      "effect": "fade",
+      "durationMs": 300,
+      "trigger": "last manual click"
+    },
+    {
+      "page": 13,
+      "shapeId": "15",
+      "text": "TileLang拿到计算流程后，如何建模和分析？",
+      "oldClicks": 3,
+      "newClicks": 4,
+      "effect": "fade",
+      "durationMs": 300,
+      "trigger": "last manual click"
+    },
+    {
+      "page": 14,
+      "shapeId": "35",
+      "text": "长循环中，减小启动间隔II能直接缩短总时间。",
+      "oldClicks": 4,
+      "newClicks": 5,
+      "effect": "fade",
+      "durationMs": 300,
+      "trigger": "last manual click"
+    },
+    {
+      "page": 16,
+      "shapeId": "14",
+      "text": "有了对任务的控制，哪些条件限制了这些变量？",
+      "oldClicks": 3,
+      "newClicks": 4,
+      "effect": "fade",
+      "durationMs": 300,
+      "trigger": "last manual click"
+    },
+    {
+      "page": 21,
+      "shapeId": "21",
+      "text": "搜索可行的最小启动间隔，并取出对应调度变量。",
+      "oldClicks": 4,
+      "newClicks": 5,
+      "effect": "fade",
+      "durationMs": 300,
+      "trigger": "last manual click"
+    }
+  ],
+  "allNonAnimationBytesPreserved": true,
+  "allExistingGroupsPreserved": true,
+  "slideshowRun": false,
+  "deliveredTo": "D:\\Dev\\tilelang\\PPT交付\\TileLang_昇腾算子.pptx",
+  "independentReview": "Passed: 24 slides; 11 final-click fades; all existing timing groups and non-animation bytes preserved."
+}

@@ -1,0 +1,7 @@
+{
+  "validation": "Passed: identical non-animation XML; native targets valid; existing click counts retained.",
+  "nativePlayback": "Original final deck pages 4,5,7 viewed. Found copied PV path ending before softmax completes, repaired in candidate. Candidate playback interrupted by user physical Escape; no more UI actions.",
+  "sourceBackup": "D:\\Dev\\tilelang\\ppt_workspace\\final-additions\\before-additions.pptx",
+  "originalSha256": "d4575c52da526cca7bf7cb4a77592bac9b18662c8c4014e233538ab07c947873",
+  "finalSha256": "7ff4800acc4fba7fe51b06a27772cdd9e29681f5565d2f26431a4b5ca0e6eed4"
+}
